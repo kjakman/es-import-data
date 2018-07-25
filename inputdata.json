@@ -1,0 +1,167 @@
+{
+  "took": 66,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 16,
+    "max_score": 1,
+    "hits": [
+      {
+        "_index": "logstash-2018.05.21",
+        "_type": "alert",
+        "_id": "r2cHtmMBGtQG2YW5VT17",
+        "_score": 1,
+        "_source": {
+          "triggered": "2018-02-10T10:35:55.484Z",
+          "source_user": "some.user",
+          "source_host": [
+            "10.222.60.131"
+          ],
+          "watch_id": "winlogbeat-user-brute-force",
+          "total_count": 5
+        }
+      },
+      {
+        "_index": "logstash-2018.05.21",
+        "_type": "alert",
+        "_id": "sGcHtmMBGtQG2YW5VT17",
+        "_score": 1,
+        "_source": {
+          "triggered": "2018-02-10T12:35:55.484Z",
+          "source_user": "some.user",
+          "source_host": [
+            "10.222.60.131"
+          ],
+          "watch_id": "winlogbeat-user-brute-force",
+          "total_count": 5
+        }
+      },
+      {
+        "_index": "logstash-2018.05.21",
+        "_type": "alert",
+        "_id": "sWcHtmMBGtQG2YW5VT17",
+        "_score": 1,
+        "_source": {
+          "triggered": "2018-02-10T12:45:55.484Z",
+          "source_user": "some.user",
+          "source_host": [
+            "10.222.60.131"
+          ],
+          "watch_id": "winlogbeat-user-ddos",
+          "total_count": 5
+        }
+      },
+      {
+        "_index": "logstash-2018.05.21",
+        "_type": "alert",
+        "_id": "smcHtmMBGtQG2YW5VT17",
+        "_score": 1,
+        "_source": {
+          "triggered": "2018-02-10T13:15:55.484Z",
+          "source_user": "some.user",
+          "source_host": [
+            "10.222.60.131",
+            "10.222.60.132"
+          ],
+          "watch_id": "winlogbeat-user-ddos",
+          "total_count": 5
+        }
+      },
+      {
+        "_index": "logstash-2018.05.21",
+        "_type": "alert",
+        "_id": "s2cHtmMBGtQG2YW5VT17",
+        "_score": 1,
+        "_source": {
+          "triggered": "2018-02-10T20:35:55.484Z",
+          "source_user": "some.user",
+          "source_host": [
+            "10.222.60.134"
+          ],
+          "watch_id": "winlogbeat-user-brute-force",
+          "total_count": 5
+        }
+      },
+      {
+        "_index": "logstash-2018.05.21",
+        "_type": "alert",
+        "_id": "tGcHtmMBGtQG2YW5VT17",
+        "_score": 1,
+        "_source": {
+          "triggered": "2018-02-11T10:35:55.484Z",
+          "source_user": "some.user",
+          "source_host": [
+            "10.222.60.131"
+          ],
+          "watch_id": "winlogbeat-user-brute-force",
+          "total_count": 5
+        }
+      },
+      {
+        "_index": "logstash-2018.05.21",
+        "_type": "alert",
+        "_id": "tWcHtmMBGtQG2YW5VT17",
+        "_score": 1,
+        "_source": {
+          "triggered": "2018-02-11T10:35:55.484Z",
+          "source_user": "some.user",
+          "source_host": [
+            "10.222.60.131"
+          ],
+          "watch_id": "winlogbeat-user-brute-force",
+          "total_count": 5
+        }
+      },
+      {
+        "_index": "logstash-2018.05.21",
+        "_type": "alert",
+        "_id": "tmcHtmMBGtQG2YW5VT17",
+        "_score": 1,
+        "_source": {
+          "triggered": "2018-02-11T12:35:55.484Z",
+          "source_user": "some.user",
+          "source_host": [
+            "10.222.60.131"
+          ],
+          "watch_id": "winlogbeat-user-n-countries",
+          "total_count": 5
+        }
+      },
+      {
+        "_index": "logstash-2018.05.21",
+        "_type": "alert",
+        "_id": "t2cHtmMBGtQG2YW5VT17",
+        "_score": 1,
+        "_source": {
+          "triggered": "2018-02-11T12:45:55.484Z",
+          "source_user": "some.user",
+          "source_host": [
+            "10.222.60.131"
+          ],
+          "watch_id": "winlogbeat-user-brute-force",
+          "total_count": 5
+        }
+      },
+      {
+        "_index": "logstash-2018.05.21",
+        "_type": "alert",
+        "_id": "uGcHtmMBGtQG2YW5VT17",
+        "_score": 1,
+        "_source": {
+          "triggered": "2018-02-13T13:15:55.484Z",
+          "source_user": "some.user",
+          "source_host": [
+            "10.222.60.131"
+          ],
+          "watch_id": "winlogbeat-user-other",
+          "total_count": 5
+        }
+      }
+    ]
+  }
+}
