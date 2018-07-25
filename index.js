@@ -19,7 +19,7 @@ process.on('uncaughtException', function(err) {
 
 });
 
-var argv = yargs.usage('Usage: $0 -f [input JSON file] -o [output path for request body data file] -i [Elasticsearch index to write to] -t [Elasticsearch type to write]')
+var argv = yargs.usage('Usage: $0 -f [input JSON file] -o [output path for request body data file] -i [Elasticsearch index to write to] -t [Elasticsearch type to write] -e 1')
     .demand(['f', 'i', 't'])
     .alias('f', 'file')
     .describe('f', 'Path to input JSON file')
